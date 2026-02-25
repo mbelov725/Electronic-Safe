@@ -1,6 +1,6 @@
 // Only compile file once
-#ifndef ICONS_H
-#define ICONS_H
+#ifndef ICONS_HPP
+#define ICONS_HPP
 
 #include "LiquidCrystal.h"
 

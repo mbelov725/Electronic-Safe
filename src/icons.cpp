@@ -1,5 +1,5 @@
 #include "Arduino.h"
-#include "icons.h"
+#include "icons.hpp"
 
 // Pixel drawing of locked and unlocked icon
 // Stored in flash memory, which is large and non-volatile, as opposed to RAM
