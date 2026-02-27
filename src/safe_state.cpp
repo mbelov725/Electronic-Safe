@@ -3,10 +3,10 @@
 #include "EEPROM.h"
 #include "safe_state.hpp"
 
-#define EEPROM_ADDR_LOCKED 0
+#define EEPROM_ADDR_LOCKED   0
 #define EEPROM_ADDR_CODE_LEN 1
-#define EEPROM_ADDR_CODE 2
-#define EEPROM_EMPTY 0xff
+#define EEPROM_ADDR_CODE     2
+#define EEPROM_EMPTY         0xff
 
 #define SAFE_STATE_OPEN (char)0
 #define SAFE_STATE_LOCKED (char)1
