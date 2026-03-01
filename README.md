@@ -71,7 +71,9 @@ Arduino is disconnected from the power.
 5. To build the project, press the checkmark in the bottom left corner of the screen, or press ```Ctrl + Alt + B```.
 6. To upload the project, press the arrow in the bottom left corner of the screen, or press ```Ctrl + Alt + U```.
 7. Once you are done with the project, clear the EEPROM from your Arduino.
-   Create an Arduino sketch
+   
+   Create an Arduino sketch.
+
    ```ino
    #include <EEPROM.h>
    #define EEPROM_ADDR_LOCKED   0
@@ -91,4 +93,5 @@ Arduino is disconnected from the power.
    
      Serial.println("Arduino EEPROM cleared.");
    }
+   
    void loop() {}
