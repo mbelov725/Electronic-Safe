@@ -4,8 +4,8 @@
 #include "safe_state.hpp"
 #include "icons.hpp"
 
-#define SERVO_PIN 6
-#define SERVO_LOCK_POS 20
+#define SERVO_PIN        6
+#define SERVO_LOCK_POS   20
 #define SERVO_UNLOCK_POS 90
 Servo lock_servo;
 
