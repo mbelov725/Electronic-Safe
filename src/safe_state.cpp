@@ -8,8 +8,8 @@
 #define EEPROM_ADDR_CODE     2
 #define EEPROM_EMPTY         0xff
 
-#define SAFE_STATE_OPEN (char)0
-#define SAFE_STATE_LOCKED (char)1
+#define SAFE_STATE_OPEN (char)   0
+#define SAFE_STATE_LOCKED (char) 1
 
 Safe_state::Safe_state() {
     this->locked_ = EEPROM.read(EEPROM_ADDR_LOCKED) == SAFE_STATE_LOCKED;
