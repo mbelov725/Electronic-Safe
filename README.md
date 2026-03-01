@@ -6,14 +6,14 @@ This project implements an electronic safe, built using an Arduino Uno, LCD, key
   <img src="assets/demo.jpg" width="750"/>
 </p>
 
-[Watch a video demo](https://www.youtube.com/watch?v=GJqUD9L2F-I)
+Watch a [video demo](https://www.youtube.com/watch?v=GJqUD9L2F-I).
 
 ## Overview
-This project simulates the core functionality of a digital safe. The LCD serves as a visual interface
-prompting users to enter a code, reset the code, or lock the safe. Users can input a code using the keypad.
-A servo motor serves as the locking mechanism. The program uses the Arduino's EEPROM (Electrically Erasable 
+This project simulates the core functionality of a digital safe. The LCD serves as a visual interface,
+prompting users to enter a code, change the code, or lock the safe, with input provided from the keypad.
+A servo motor serves as the physical locking mechanism. The program uses the Arduino's EEPROM (Electrically Erasable 
 Programmable Read-Only Memory), which allows the safe to store the lock state and access code even after the 
-Arduino is disconnected from the power.
+Arduino is powered off.
 
 ## Getting Started
 ### Hardware Requirements
@@ -76,7 +76,7 @@ Arduino is disconnected from the power.
 
    ```ino
    #include <EEPROM.h>
-   
+
    #define EEPROM_ADDR_LOCKED   0
    #define EEPROM_ADDR_CODE_LEN 1
    #define EEPROM_ADDR_CODE     2
